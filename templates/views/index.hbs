@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="icon" href="/img/download.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+
+<body>
+    
+    <div class="container"> 
+         {{>header}}
+
+        <p class="lead">Use this form to search</p>
+
+        <form>
+            <input type="text" placeholder="location">
+            <button type="submit">Search</button>
+        </form>
+
+        <p id="msg-1" style="color: cadetblue; font-size:22px"></p>
+        <p id="msg-2" style="color: darkolivegreen; font-size:20px"></p>
+
+        
+    </div>
+    {{>footer}}
+
+    
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
